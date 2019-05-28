@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+
 
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
@@ -12,9 +14,43 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    body { margin: 0px;}
+    .top-box { padding-top: 100px auto; background-color: hsl(193, 100%, 96%); position:relative;}
+    .firstpic { margin: 0px;}
+    .secondpic {position: absolute; left: 50px; top: 75px;}
+    .thirdpic {position: absolute; right:50px; top:200px; height:400px; width:600px;}
+    .butn {
+
+      -webkit-border-radius: 21;
+      -moz-border-radius: 21;
+      border-radius: 21px;
+      font-family: 'Montserrat', sans-serif;
+      color: black;
+      font-size: 15px;
+      font-weight: 700;
+      background: #ffffff;
+      padding: 15px 60px 15px 60px;
+      text-decoration: none;
+      position: absolute; right:50px; top:75px;
+    }
+
+    .butn:hover {
+      background: #3cb0fd;
+      text-decoration: none;
+    }
+
+
   </style>
 </head>
 <body>
+  <div class="top-box">
+    <img class="firstpic" src="images/bg-hero-desktop.svg" alt="bg">
+    <img class="secondpic" src="images/logo.svg" alt="logo">
+    <a class="butn" href="mailto:praveen.smile@gmail.com">Try It Free</a>
+    <img class="thirdpic"src="images/illustration-mockups.svg" alt="thirdpic">
+
+
+  </div>
 
   Try It Free
 
@@ -63,8 +99,9 @@
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Praveen Sv</a>.
     </p>
   </footer>
 </body>
 </html>
+
